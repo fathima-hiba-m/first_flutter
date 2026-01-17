@@ -13,7 +13,7 @@ class Homepage extends StatelessWidget {
     final controller = Get.put(DataController());
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Hi this is my first app"),
+        title: const Text("Hi this is my first app, and im learning flutter."),
       ),
       body: Container(
         alignment: Alignment.center,
