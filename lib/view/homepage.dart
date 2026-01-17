@@ -20,7 +20,7 @@ class Homepage extends StatelessWidget {
         child: Obx(() {
           var data = controller.dataModel.value;
           return Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Text(data.category ?? ""),
             ],
